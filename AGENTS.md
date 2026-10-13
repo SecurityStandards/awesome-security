@@ -9,7 +9,9 @@ Este documento define os requisitos mandatórios para qualquer agente trabalhand
 - **Co-autoria da IA:** Apenas como trailer no rodapé do commit:
   `Co-Authored-By: <Agent Name> <noreply@...>`
 
-## 2. Padrões de Conteúdo para Listas Awesome
-- Seguir o padrão canônico do manifesto [awesome](https://github.com/sindresorhus/awesome).
-- Links válidos, sem links mortos, organizados por ordem alfabética ou relevância temática.
-- Descrições concisas e objetivas em uma única frase.
+## 2. Metodologia: Domain-Based Spec-Driven Development (SDD)
+- Toda feature ou evolução segue especificações estruturadas por domínio em `docs/specs/<domain>/` com `spec.md`, `plan.md` e `tasks.md`.
+
+## 3. Diretrizes de Qualidade do Catálogo
+- Apenas ferramentas ativas e open source.
+- Sempre fornecer links diretos e badges de estrelas do GitHub (`https://img.shields.io/github/stars/<owner>/<repo>?style=social`).
